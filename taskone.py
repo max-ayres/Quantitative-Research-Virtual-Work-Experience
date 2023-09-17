@@ -2,22 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from openpyxl import load_workbook
 
-while True:
-    print("Enter a date between the dates 10/31/2020 and 10/31/2025 for an estimate of the natrual gas price on that day")
-    year = int(input("Enter year: "))
-    month = int(input("Enter a month: "))
-    day = int(input("Enter a day: "))
-    if year == 2020: #stop invalid input when year is 2020 or 2025
-        if month < 10 or month > 12 or day < 1 or day > 31:
-            print("\nInput not valid\n")
-    elif year == 2025:
-        if month > 10 or month < 1 or day < 1 or day > 31:
-            print("\nInput not valid\n")
-    elif year > 2025 or year < 2020 or month < 1 or month > 12 or day > 31 or day < 1: #stop invalid input
-            print("\nInput not valid\n")
-    else:
-        break
-
 #function that takes a integer inputs for dates in the format MM,DD,YYYY and outputs a price
 def natGasPrice(find):
     lower = allprices[find]
@@ -39,6 +23,22 @@ def findDate(month, day, year):
         else:
             month == 12
     return find
+    
+while True:
+    print("Enter a date between the dates 10/31/2020 and 10/31/2025 for an estimate of the natrual gas price on that day")
+    year = int(input("Enter year: "))
+    month = int(input("Enter a month: "))
+    day = int(input("Enter a day: "))
+    if year == 2020: #stop invalid input when year is 2020 or 2025
+        if month < 10 or month > 12 or day < 1 or day > 31:
+            print("\nInput not valid\n")
+    elif year == 2025:
+        if month > 10 or month < 1 or day < 1 or day > 31:
+            print("\nInput not valid\n")
+    elif year > 2025 or year < 2020 or month < 1 or month > 12 or day > 31 or day < 1: #stop invalid input
+            print("\nInput not valid\n")
+    else:
+        break
 
 workbook = load_workbook(filename="Nat_Gas.xlsx")
 ws = workbook.active
