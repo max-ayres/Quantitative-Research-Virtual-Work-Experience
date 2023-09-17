@@ -10,7 +10,7 @@ Task 2
 used VSCode
 
 Task 3
-used Jupyter Notebook
+used Jupyter Notebook (much easier)
 
 Task instructions
 
