@@ -4,13 +4,19 @@ JP Morgan Chase &amp; Co Forage virtual work experience tasks, made private to k
 Notes for my code
 
 Task 1
-used VSCode
+used VSCode and "Nat_Gas.xlsx"
 
 Task 2
-used VSCode
+used VSCode and "Nat_Gas.xlsx"
 
 Task 3
-used Jupyter Notebook (much easier)
+used Jupyter Notebook (much easier) and "task 3 and task 4_Loan_Data.csv"
+
+Task 4
+
+
+
+
 
 Task instructions
 
