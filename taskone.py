@@ -23,7 +23,7 @@ def findDate(month, day, year):
         else:
             return 2
     return find + 2
-    
+
 while True:
     print("Enter a date between the dates 10/31/2020 and 10/31/2025 for an estimate of the natrual gas price on that day")
     year = int(input("Enter year: "))
