@@ -17,12 +17,12 @@ def findDate(month, day, year):
         find += 1
     if year == 2020:
         if month == 10:
-            find = 0
+            return 0
         elif month == 11:
-            find = 1
+            return 1
         else:
-            month == 12
-    return find
+            return 2
+    return find + 2
     
 while True:
     print("Enter a date between the dates 10/31/2020 and 10/31/2025 for an estimate of the natrual gas price on that day")
