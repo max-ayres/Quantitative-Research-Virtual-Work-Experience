@@ -14,6 +14,7 @@ used Jupyter Notebook (much easier) and "task 3 and task 4_Loan_Data.csv"
 
 Task 4 - bucket fico scores
 used Jupyter Notebook and "task 3 and task 4_Loan_Data.csv"
+somewhat confused on this task, however, tried to finish
 
 
 
