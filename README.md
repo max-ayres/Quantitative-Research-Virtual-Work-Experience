@@ -1,5 +1,5 @@
 # Quantitative-Research-Virtual-Work-Experience
-JP Morgan Chase &amp; Co Forage virtual work experience tasks, made private to keep answers hidden from public
+JP Morgan Chase &amp; Co Forage virtual work experience tasks
 
 Notes for my code
 
